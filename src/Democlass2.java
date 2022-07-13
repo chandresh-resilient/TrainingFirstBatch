@@ -12,6 +12,7 @@ public class Democlass2 extends DemoClassOne{
 	int doSomeThing(int i, int j, int k, int l) {
 		trunOnTheDRL();
 		return super.doSomeThing(i, j, k, l);
+		//change3
 	}
 
 
