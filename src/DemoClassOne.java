@@ -1,5 +1,4 @@
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 public class DemoClassOne {
@@ -27,7 +26,7 @@ public class DemoClassOne {
 
 	}
 
-	void see(OutputStream out) {
+	void see(OutputStream out) {   
 		System.out.println("this a stream see");
 
 	}
