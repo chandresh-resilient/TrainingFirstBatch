@@ -5,5 +5,6 @@ public class check2 {
 			return new Democlass2();
 		}
 		return new DemoClassOne();
-	}
+	}   
+	///Test
 }
