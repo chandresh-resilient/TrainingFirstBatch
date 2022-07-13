@@ -6,5 +6,6 @@ public class check2 {
 		}
 		System.out.println("makingchanges");
 		return new DemoClassOne();
-	}
+	}   
+	///Test
 }
