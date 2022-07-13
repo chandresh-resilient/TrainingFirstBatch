@@ -1,4 +1,4 @@
-public class Test2 {
+public class check2 {
 
 	DemoClassOne getCar() {
 		if ((Math.random()*100+1) / 2 == 0) {
