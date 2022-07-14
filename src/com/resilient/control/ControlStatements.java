@@ -13,11 +13,14 @@ public class ControlStatements {
 				}
 			}
 		}
-		if (month >= 3 || month < 7) {
+		else if (month >= 3 || month < 7) {
 			System.out.println("its Summer");
 		}
-		if (month >= 7 || month < 11) {
+		else if (month >= 7 || month < 11) {
 			System.out.println("its raining............");
+		}
+		else {
+			System.out.println("stupid month value.........");
 		}
 
 	}

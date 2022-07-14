@@ -21,7 +21,6 @@ public class Operators {
 		if (abc != null && abc.contains("123")) {
 
 		}
-
 		System.out.println(q);
 		System.out.println(i++);
 		System.out.println(i);
