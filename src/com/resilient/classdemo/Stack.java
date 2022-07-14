@@ -1,22 +1,22 @@
 package com.resilient.classdemo;
 
 public class Stack {
-//	 * Use an array of size 10 and create a class which can implment FILO
-//	 * Stack s= new Stack()
-//	 * s.push(9)
-//	 * s.push(10)
-//	 * s.push(11)
-//	 * s.push(12)
-//	 * s.push(29)
-//	 * s.push(14)
-//	 * s.push(15)
-//	 * 
-//	 * s.pop()
-//	 * s.pop()
-//	 * s.pop()
-//	 * s.pop()
-//	 * s.pop()
-//	 * 
-//	 * should give a result 15 14 29 12 11...
+	 private int element=0;
+	  int[] stack= new int[15];
 
+	    public void lastElement(){
+	        int num = stack[--element];
+	        System.out.println("Your top remaiming element is : " + num);
+	        num=stack[++element];
+	    }
+
+	  public void push(int num){
+	      stack[element++]= num;
+	      System.out.println("element added successfully");
+	  }//end push
+
+	   public void pop(){
+	      int num=stack[--element];
+	     System.out.println("element popped succesfully, popped element is: "+ num);
+	   } //end pop
 }
