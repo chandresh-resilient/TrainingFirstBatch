@@ -1,4 +1,6 @@
-public class check {
+package com.resilient.intro;
+
+public class Test {
 
 	DemoClassOne getCar() {
 		if ((Math.random()*100+1) / 2 == 0) {
