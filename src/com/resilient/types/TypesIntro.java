@@ -1,5 +1,7 @@
 package com.resilient.types;
 
+import com.resilient.classdemo.BOxClass;
+
 public class TypesIntro {
 
 	int i;
@@ -12,4 +14,8 @@ public class TypesIntro {
 	int newdouble = (int) floatX;
 	float newFloat = i;
 
+	public static void main(String[] args) {
+		BOxClass box=new BOxClass();
+		box.
+	}
 }
