@@ -13,7 +13,19 @@ public class BoxClass {
 		this.depth = depth;
 
 	}
-
+	public BoxClass() {
+		this.height = 5;
+		this.width = 5;
+		this.depth = 5;
+	}
+	
+	public BoxClass(int dim) {
+		this.height = dim;
+		this.width = dim;
+		this.depth = dim;
+	}
+	
+	
 	public int volume() {
 		return height * width * depth;
 
