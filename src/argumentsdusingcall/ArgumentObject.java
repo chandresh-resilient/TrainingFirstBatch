@@ -30,8 +30,6 @@ public class ArgumentObject {
 		argumentsPromitive2.second=20;
 		argumentsPromitive2.dosomething(argumentsPromitive2);
 		ReturnValueHolder value = argumentsPromitive2.dosomething1(argumentsPromitive2);
-		
-		
 		System.out.println("Main "+argumentsPromitive2.first);
 		System.out.println("Main "+argumentsPromitive2.second);
 		
