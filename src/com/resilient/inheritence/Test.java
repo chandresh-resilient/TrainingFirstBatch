@@ -14,7 +14,7 @@ public class Test {
 		RichAndEducated richPpl = new RichAndEducated();
 		richPpl.showOffMoney();
 		Test test = new Test();
-		test.spendWithOutThinking(richPpl);
+		test.cometoParty(richPpl);
 		test.ThinkWisly(richPpl);
 	}
 
