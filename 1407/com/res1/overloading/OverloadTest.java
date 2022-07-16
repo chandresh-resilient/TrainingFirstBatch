@@ -11,3 +11,4 @@ public class OverloadTest {
 		result = ob.test(123.25);
 		System.out.println("Result of ob.test(123.25): " + result);
 	}
+}
