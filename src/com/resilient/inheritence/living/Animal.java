@@ -2,9 +2,9 @@ package com.resilient.inheritence.living;
 
 import com.resilient.inheritence.LivingThing;
 
-public class NotATree extends LivingThing{
+public class Animal extends LivingThing{
 
-	public NotATree(double volume, double mass) {
+	public Animal(double volume, double mass) {
 		super(volume, mass);
 		// TODO Auto-generated constructor stub
 	}
@@ -24,6 +24,11 @@ public class NotATree extends LivingThing{
 	public void move() {
 		System.out.println("Go hear and there......");
 
+	}
+
+	@Override
+	public void live() {
+		System.out.println("NotATree.live()");
 	}
 
 }
