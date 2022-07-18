@@ -1,6 +1,6 @@
 package com.resilient.inheritence.example;
 
-public interface IAnimalFunctions {
+public interface IDoctorFunctions {
 
 	void breath();
 	void eat();

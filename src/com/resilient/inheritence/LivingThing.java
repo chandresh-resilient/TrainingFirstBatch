@@ -4,6 +4,7 @@ public abstract class LivingThing extends Thing {
 
 	public LivingThing(double volume, double mass) {
 		super(volume, mass);
+		System.out.println("LivingThing.LivingThing()");
 	}
 
 	public abstract void breath();

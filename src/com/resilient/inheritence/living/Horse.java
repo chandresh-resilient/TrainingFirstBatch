@@ -1,9 +1,9 @@
 package com.resilient.inheritence.living;
 
-import com.resilient.inheritence.example.IAnimalFunctions;
+import com.resilient.inheritence.example.IDoctorFunctions;
 import com.resilient.inheritence.example.MRIScan;
 
-public class Horse extends Animal implements IAnimalFunctions {
+public class Horse extends Animal implements IDoctorFunctions {
 
 	public Horse(double volume, double mass) {
 		super(volume, mass);

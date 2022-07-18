@@ -6,6 +6,7 @@ public class TreeThings extends LivingThing {
 
 	public TreeThings(double volume, double mass) {
 		super(volume, mass);
+		System.out.println("TreeThings.TreeThings()");
 	}
 
 	@Override
@@ -18,6 +19,12 @@ public class TreeThings extends LivingThing {
 	public void grow() {
 		System.out.println("TreeThings.grow() with trunk and branches and leaves...");
 
+	}
+
+	@Override
+	public void live() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
