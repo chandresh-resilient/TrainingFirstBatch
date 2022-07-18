@@ -4,6 +4,9 @@ public interface IDoctorFunctions {
 
 	void breath();
 	void eat();
-	MRIScan doMRISCAN();
+	MriScan doMRISCAN();
+	public default void openUrmouth() {
+		System.out.println("Cant open my mouth......");
+	}
 	
 }

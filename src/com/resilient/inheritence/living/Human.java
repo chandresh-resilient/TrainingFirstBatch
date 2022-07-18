@@ -1,7 +1,7 @@
 package com.resilient.inheritence.living;
 
 import com.resilient.inheritence.example.IDoctorFunctions;
-import com.resilient.inheritence.example.MRIScan;
+import com.resilient.inheritence.example.MriScan;
 
 public class Human extends Animal implements IDoctorFunctions {
 
@@ -26,8 +26,8 @@ public class Human extends Animal implements IDoctorFunctions {
 	}
 
 	@Override
-	public MRIScan doMRISCAN() {
-		return new MRIScan(400000, 880);
+	public MriScan doMRISCAN() {
+		return new MriScan(400000, 880);
 	}
 
 	public void dojob() {

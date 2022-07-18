@@ -22,16 +22,16 @@ public class Test {
 //		test.ThinkWisly(richPpl);
 //		
 //
-//		DrClass dr = new DrClass();
-//
-//		Object abc= new Dog(78, 67)
-//		IDoctorFunctions doctorRef = new Horse(30, 45);
-//		dr.diagnoseBreathing(doctorRef);
-//		
-//		
-//
-//		doctorRef = new Dog(30, 45);
-//		dr.diagnoseBreathing(doctorRef);
+		DrClass dr = new DrClass();
+
+		Object abc= new Dog(78, 67);
+		IDoctorFunctions doctorRef = new Horse(30, 45);
+		dr.diagnoseBreathing(doctorRef);
+		
+		
+
+		doctorRef = new Dog(30, 45);
+		dr.diagnoseBreathing(doctorRef);
 		
 		Cat cat = new Cat(30, 45);
 //		sendToDr(cat);

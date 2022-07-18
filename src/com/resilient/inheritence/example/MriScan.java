@@ -1,8 +1,8 @@
 package com.resilient.inheritence.example;
 
-public class MRIScan {
+public class MriScan {
 
-	public MRIScan(int abc, int xyz) {
+	public MriScan(int abc, int xyz) {
 		super();
 		this.abc = abc;
 		this.xyz = xyz;

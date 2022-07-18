@@ -1,12 +1,12 @@
 package com.resilient.inheritence.living;
 
 import com.resilient.inheritence.example.IDoctorFunctions;
-import com.resilient.inheritence.example.MRIScan;
+import com.resilient.inheritence.example.MriScan;
 
 public class Dog extends Animal implements IDoctorFunctions {
 
 	public Dog(double volume, double mass) {
-		///super(volume, mass);
+		super(volume, mass);
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class Dog extends Animal implements IDoctorFunctions {
 	
 
 	@Override
-	public MRIScan doMRISCAN() {
-		return new MRIScan(40700, 90);
+	public MriScan doMRISCAN() {
+		return new MriScan(40700, 90);
 	}
 }

@@ -1,7 +1,7 @@
 package com.resilient.inheritence.living;
 
 import com.resilient.inheritence.example.IDoctorFunctions;
-import com.resilient.inheritence.example.MRIScan;
+import com.resilient.inheritence.example.MriScan;
 
 public class Rabbit extends Animal implements IDoctorFunctions {
 
@@ -17,7 +17,7 @@ public class Rabbit extends Animal implements IDoctorFunctions {
 	}
 
 	@Override
-	public MRIScan doMRISCAN() {
+	public MriScan doMRISCAN() {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -1,7 +1,7 @@
 package com.resilient.inheritence.living;
 
 import com.resilient.inheritence.example.IDoctorFunctions;
-import com.resilient.inheritence.example.MRIScan;
+import com.resilient.inheritence.example.MriScan;
 
 public class Cat extends Animal {
 
