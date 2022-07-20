@@ -21,6 +21,11 @@ public class Horse extends Animal implements IDoctorFunctions {
 	}
 
 	@Override
+	public void openUrmouth() {
+		System.out.println("Horse.openUrmouth()");
+	}
+
+	@Override
 	public MriScan doMRISCAN() {
 		return new MriScan(40, 90);
 	}

@@ -1,4 +1,4 @@
 
-public class MyOut extends System{
+public class MyOut {
 
 }

@@ -7,13 +7,12 @@ public class Thing {
 	public Thing(double volume, double mass) {
 		this.volume = volume;
 		this.mass = mass;
-		System.out.println("Thing.Thing()");
+		//System.out.println("Thing.Thing() " + 100 / 0);
 	}
 
 	public double getMomentum(double speed) {
 		return mass * speed;
 
 	}
-	
-	
+
 }

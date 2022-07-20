@@ -22,6 +22,7 @@ public class Dog extends Animal implements IDoctorFunctions {
 	}
 	
 
+
 	@Override
 	public MriScan doMRISCAN() {
 		return new MriScan(40700, 90);
