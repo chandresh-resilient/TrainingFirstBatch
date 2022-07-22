@@ -20,7 +20,7 @@ public class NonGenericDemo {
 		nonGenericString.showType();
 
 		System.out.println(nonGenericString.getOb());
-		new ThirdClass().Process(nonGenericString);
+		// new ThirdClass().Process(nonGenericString);
 
 		List<Number> adds = new ArrayList();
 		add(adds);

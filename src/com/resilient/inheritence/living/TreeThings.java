@@ -7,6 +7,9 @@ public class TreeThings extends LivingThing {
 	public TreeThings(double volume, double mass) {
 		super(volume, mass);
 		System.out.println("TreeThings.TreeThings()");
+
+
+
 	}
 
 	@Override
