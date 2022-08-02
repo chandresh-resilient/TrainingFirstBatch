@@ -1,10 +1,9 @@
 
 public class Test {
-
-	DemoClassOne getCar() {
-		if ((Math.random()*100+1) / 2 == 0) {
-			return new Democlass2();
+	public static void main(String[] args) {
+		System.err.println("main called..............");
+		for (String string : args) {
+			System.out.println(string);
 		}
-		return new DemoClassOne();
 	}
 }
