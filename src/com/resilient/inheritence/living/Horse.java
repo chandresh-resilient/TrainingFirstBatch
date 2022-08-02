@@ -5,6 +5,7 @@ import com.resilient.inheritence.example.MriScan;
 
 public class Horse extends Animal implements IDoctorFunctions {
 
+	int speed;
 	public Horse(double volume, double mass) {
 		super(volume, mass);
 	}
@@ -28,5 +29,14 @@ public class Horse extends Animal implements IDoctorFunctions {
 	@Override
 	public MriScan doMRISCAN() {
 		return new MriScan(40, 90);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		Horse second = (Horse) obj;
+		if (this.speed > second.speed) {
+			return true;
+		}
+		return false;
 	}
 }
